@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(159deg,rgba(255, 3, 28, 1) 0%, rgba(148, 0, 0, 1) 100%);
+}
+
+.container3 h3 {
+    margin: 25px 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #db0b20;
+    padding-bottom: 4.1%;
+    text-align: center;
+}
+
+.Tiak p {
+    color: #200000;
+    margin-bottom: 170;
+    padding-top: 4%;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .Tiak p {
+        font-size: calc(4px + 1.0vw);
+    }
+
+    .container h3 {
+        font-size: calc(20px + 1.0vw);
+    }
+}
+
+.container3 {
+    position: relative;
+    height: 80%;
+    width: 80%;
+}
+
+.container3 {
+    padding: 15px 80px;
+    top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+

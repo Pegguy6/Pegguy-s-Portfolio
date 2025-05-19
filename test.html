@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+        }
+        
+        .Sakura {
+            position: relative;
+            height: 100vh;
+            width:100%;
+            overflow: hidden;
+        }
+
+        .Sakura video{
+            position: absolute;
+            min-width: 100%;
+            min-height: 100%;
+            top: 60%;
+            left: 50%;
+            z-index:-100;
+            transform: translate(-50%, -50%);
+        }
+
+        .Sakura::before{
+            position: absolute;
+            content:"";
+            height: 100%;
+            width:100%;
+            background-color: #00000066;
+            z-index: -99;
+        }
+
+        h1{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Sakura">
+    <video autoplay="autoplay" muted="" loop="infinite" src="assets/video/Anime Wallpaper PC Sakura Tree  David Live Wallpapers 1080pFHR.mp4"></video>
+        <h1> Pegguy <br> LUVUVAMU TOKO</h1>
+         <div class="page-scroll">
+                        <p class="job-title">Full Stack Developer</p>
+                        <a href="#contact" class="btn btn-fill ">Hire me</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                    </div>
+    </div>
+</body>
+</html>
